@@ -1,0 +1,15 @@
+server:
+  port: 4200
+
+spring:
+  banner:
+    image:
+      location: snail.jpeg
+  main:
+    banner-mode: console
+
+logging:
+  level:
+    root: error
+    com:
+      shan: info
